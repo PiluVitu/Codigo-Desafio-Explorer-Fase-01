@@ -1,16 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Open Sans", sans-serif;
-  text-align: end;
-  margin: 0;
+  text-align: center;
 }
 
 #hero {
-    width: 592px;
-    margin: 72px;
+  width: 592px;
+  margin: 0 auto;
 }
 
-img {
-    margin: 100px;
+#hero img {
+    margin-bottom: 72px;
 }
 
 h1 {
@@ -29,11 +32,18 @@ h1 span {
 span, a {
   color: #ff9900;
 }
+#hero p {
+  margin-top: 32px;
+}
 
 p, #footer {
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
+}
+
+#footer{
+  margin-top: 72px;
 }
 
 #footer a + a {
@@ -44,13 +54,13 @@ p, #footer {
     width: 568px;
     height: 0;
 
-    margin: 0 8px;
+    margin: 0 auto;
 
     border: 1px solid #ECEFF2;
 }
 
 #balls {
     position: fixed;
-    top: 0;
+    bottom: 0;
     right: 0;
 }
